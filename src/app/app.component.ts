@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = "Hello World";
+
+  ngOnInit(): void {
+    this.title = "Hello from BridgeLabz."
+  }
 }
